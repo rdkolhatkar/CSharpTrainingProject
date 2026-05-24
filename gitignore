@@ -1,0 +1,32 @@
+# Build folders
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+
+# VS Code settings
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+
+# Rider IDE
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+
+# NuGet packages
+*.nupkg
+
+# Environment files
+.env
