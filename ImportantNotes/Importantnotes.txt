@@ -1,0 +1,36 @@
+Create a CSharp and .Net Project from Scratch without Visual Studio Software
+
+1. Install .NET Sdk in your windows operating system.
+
+2. Open terminal, GitBash or Powershell etc. and run command "dotnet --version"
+
+3. Create project folder called "DotNetPractice" for example 'mkdir D:\DotNetPractice'
+
+4. Change the directory and go inside the project folder with command 'cd D:\DotNetPractice'
+
+5. Now to create the simple .NET console project you need to open terminal or GitBash inside your project folder and run the command 'dotnet new console'
+
+6. Above command 'dotnet new console' creates the below files and folders:
+   -> Program.cs : This is C# source file which contains main execution code (.cs file means C# class file)
+   -> projectname.csproj : This is .csproj file where we can add external dependencies, target framework and build settings
+   -> obj/ & bin/ : These folders are auto generated build folders used for intermediate and final compiled output
+
+7. To run the project in terminal first open terminal inside project directory and then run the command 'dotnet run'
+
+8. Important Concepts:
+   -> .cs file : Contains C# code like classes, methods and logic, This is C Sharp source code file
+   -> .csproj file : Defines a single .NET project, dependencies and configuration, also called as C# Project file
+   -> .sln file : Solution file used in Visual Studio to group multiple projects together
+   -> A solution can contain multiple .csproj projects and each project contains multiple .cs files
+
+9. To open this project in Visual Studio:
+
+   1. Open Visual Studio
+   2. Click File → Open → Project/Solution
+   3. Select .sln file (if available) or .csproj file
+   4. Wait for project to load and restore dependencies
+   5. Press F5 to run the project
+
+10. Optional (Create Solution File):
+    -> dotnet new sln
+    -> dotnet sln add YourProject.csproj
