@@ -34,3 +34,12 @@ Create a CSharp and .Net Project from Scratch without Visual Studio Software
 10. Optional (Create Solution File):
     -> dotnet new sln
     -> dotnet sln add YourProject.csproj
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Add external dependencies or packages in Simple C# project using NuGet
+
+1. For all .NET related platform packages there is a package manager called 'NuGet' which is similar to 'Maven Repository' for java and 'npm registry' for node.js
+   -> Maven Repository : https://mvnrepository.com/
+   -> npm registry : https://registry.npmjs.org/
+   -> NuGet Gallery : https://www.nuget.org/packages
