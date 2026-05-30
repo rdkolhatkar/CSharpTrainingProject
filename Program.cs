@@ -12,5 +12,17 @@ class Program
         MyProgram.Run(); // This MyProgram class is present inside the 03_TutorialThree.cs file
         TestClass testClass = new TestClass();
         testClass.addNumbers();
+        ImplementInheritance.Run();
+
+        // Constructor Test 
+        ConstructorTest obj1 = new ConstructorTest();
+
+        ConstructorTest obj2 = new ConstructorTest("Ratnakar");
+
+        ConstructorTest obj3 = new ConstructorTest("Ratnakar", 30);
+
+        ConstructorTest obj4 = new ConstructorTest(obj3);
+
+        ConstructorTest obj5 = new ConstructorTest(25);
     }
 }
