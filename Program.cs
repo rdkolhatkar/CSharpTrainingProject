@@ -24,5 +24,12 @@ class Program
         ConstructorTest obj4 = new ConstructorTest(obj3);
 
         ConstructorTest obj5 = new ConstructorTest(25);
+
+        // Array Test
+        ArraysTest arraysTest = new ArraysTest();
+        arraysTest.setArrayData();
+
+        TestCollections testCollections = new TestCollections();
+        testCollections.testArrayList();
     }
 }
