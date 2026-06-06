@@ -1,5 +1,6 @@
-﻿using System;
+﻿using CSharpTrainingProject.code;
 using CSharpTrainingProject.src;
+using System;
 
 class Program
 {
@@ -31,5 +32,10 @@ class Program
 
         TestCollections testCollections = new TestCollections();
         testCollections.testArrayList();
+
+        // Calculator Test
+        Calculator calculator = new Calculator();
+        calculator.calculatorTest();
+
     }
 }
